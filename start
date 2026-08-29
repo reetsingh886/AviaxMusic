@@ -1,4 +1,1 @@
-#!/bin/bash
-cd "$(dirname "$0")"
-export PYTHONPATH="$(pwd):$PYTHONPATH"
-exec python3 -m anony
+python3 -m anony
